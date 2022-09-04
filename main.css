@@ -1,0 +1,105 @@
+body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd {
+  margin: 0;
+}
+body {
+  background-color:#fff;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+h1, h2 {
+  text-align: center ;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+h2 {
+  margin-bottom: 10px;
+}
+.main__container {
+  flex-direction: column;
+  display: flex;
+  padding-top: 0;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+.grid4 {
+	margin: 50px 0px;
+  display: grid;
+  max-width: 1200px;
+  grid-gap: 3em;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
+}
+.grid4-item {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  background-origin: 2px;
+  overflow: hidden;
+}
+.card4-img {
+  max-width: 96px;
+  max-height: 96px;
+  margin: 10px auto;
+  position: relative;
+  object-fit: cover;
+}
+.card4-h1 {
+	color: #000;
+  margin-top: 10px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: calc(20px + 4 * ((100vw - 320px) / (1200 - 320)));
+  font-weight: 400;
+  padding-bottom: 0.1em;
+}
+.card4-text  {
+  color: #808080;
+  margin-top: 10px;
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(13px + 3 * ((100vw - 320px) / (1200 - 320)));
+  font-weight: 500;
+  padding-bottom: 0.1em;
+}
+.grid4 a {
+	text-decoration: none;
+}
+.menu-main {
+  list-style: none;
+  margin: 40px 0 40px 0;
+  padding: 25px 0 5px;
+  text-align: center;
+  background: white;
+}
+.menu-main li {
+  display: inline-block;
+  margin-top: 10px;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 5px;
+  margin: 0 15px 0 15px;
+  font-size: 15px;
+  color: #000;
+}
+.text { 
+  color: #000;
+    margin-top: 10px;
+    margin: 0 auto;
+    font-family: 'PT Serif', serif;
+    font-size: calc(20px + 4 * ((100vw - 320px) / (1200 - 320)));
+    font-weight: 400;
+    padding-bottom: 0.1em;
+
+}
